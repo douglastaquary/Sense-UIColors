@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Sense-UIColors_Tests' do
+  pod 'Sense-UIColors', :path => '../'
+  
+  
+end
