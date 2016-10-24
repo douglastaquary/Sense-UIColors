@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D9FA3C17A2450C9BFC393EDCA31040 /* Pods-Sense-UIColors_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9F8EEBC7DAB5E9574641B8763F658A /* Pods-Sense-UIColors_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A1EFDD38F8B315DA89421E6DDEF440F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		51A7027F05CF3A00A7A5E3D19B56D5AC /* UIColor+SenseColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 768E3BD9CD4A0B593FE3BB70FD39A6DB /* UIColor+SenseColors.m */; };
+		679617C0B5B2FD2D9BB8109A40244000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		77F5358DFDE849EEACD2A82B3B4D9F29 /* Pods-Sense-UIColors_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4527343D0CDCBCCA259203AAD67FB57 /* Pods-Sense-UIColors_Tests-dummy.m */; };
+		977901591D00048C4FB480E951EEFC00 /* Sense-UIColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61FC2299B1AA1550D0D001C8A3C5E141 /* Sense-UIColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3A895ABC44C27C0DDE83BC6E748A662 /* Sense-UIColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4A787E232D4A2AA44D8DBA3D7A4F3B /* Sense-UIColors-dummy.m */; };
+		F83776BE7AA14E435ED96300A83DB45D /* UIColor+SenseColors.h in Headers */ = {isa = PBXBuildFile; fileRef = E564218FB19458A23477EB3BF22E9833 /* UIColor+SenseColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E80C4D31454CF74726F7C662B35CA11A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E21E0CD77A3F92525119BDFEE379C0A;
+			remoteInfo = "Sense-UIColors";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05480462434AAEA61D96FE6DFEF78101 /* Pods-Sense-UIColors_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sense-UIColors_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		15741A4F0B76643DF962463081E4D4E5 /* Pods-Sense-UIColors_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sense-UIColors_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		194AFEEE30F962EC1743E121D3FF0C02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A0F2FBEBB1C528C74BDBAB35A443D8 /* Pods-Sense-UIColors_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Sense-UIColors_Tests.modulemap"; sourceTree = "<group>"; };
+		4D5C3B0905185646B998BE55A061CD2D /* Pods-Sense-UIColors_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sense-UIColors_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		529F7B859242121482769F63B28A67FD /* Pods-Sense-UIColors_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sense-UIColors_Tests-resources.sh"; sourceTree = "<group>"; };
+		61FC2299B1AA1550D0D001C8A3C5E141 /* Sense-UIColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sense-UIColors-umbrella.h"; sourceTree = "<group>"; };
+		768E3BD9CD4A0B593FE3BB70FD39A6DB /* UIColor+SenseColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SenseColors.m"; sourceTree = "<group>"; };
+		7E9F8EEBC7DAB5E9574641B8763F658A /* Pods-Sense-UIColors_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sense-UIColors_Tests-umbrella.h"; sourceTree = "<group>"; };
+		80983147CEF7818361A6FB9E0E58093B /* Sense_UIColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sense_UIColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8206CECC222D2AE834B291896F912B7C /* Sense-UIColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sense-UIColors-prefix.pch"; sourceTree = "<group>"; };
+		8A00CA374D4DBD4F9C1E475F5DA8DBC9 /* Sense-UIColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Sense-UIColors.modulemap"; sourceTree = "<group>"; };
+		8FA4FD5797E281832ED55AC51789756A /* Pods-Sense-UIColors_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sense-UIColors_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		90BAD16EADF7CC26F4CDD9755B9E9D63 /* Pods_Sense_UIColors_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sense_UIColors_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96BA10A899CC884D0AE36C4CB1D73E86 /* Pods-Sense-UIColors_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sense-UIColors_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		976FA6743A1B88F50D6324A08E2A3962 /* Sense-UIColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Sense-UIColors.xcconfig"; sourceTree = "<group>"; };
+		99B3E6E65BC93A0B50D03C8C5C657DA7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4527343D0CDCBCCA259203AAD67FB57 /* Pods-Sense-UIColors_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sense-UIColors_Tests-dummy.m"; sourceTree = "<group>"; };
+		CE4A787E232D4A2AA44D8DBA3D7A4F3B /* Sense-UIColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Sense-UIColors-dummy.m"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E564218FB19458A23477EB3BF22E9833 /* UIColor+SenseColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+SenseColors.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92781E1F91C0A2920F04ADC8EF77001B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679617C0B5B2FD2D9BB8109A40244000 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D017C86ADD74DF7E79E257F4DB9CFEE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1EFDD38F8B315DA89421E6DDEF440F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33B43957423F990C2B0CC5656640329F /* Sense-UIColors */ = {
+			isa = PBXGroup;
+			children = (
+				6C601E48CD84B8CCC0DD04805C5FF6FF /* Classes */,
+			);
+			path = "Sense-UIColors";
+			sourceTree = "<group>";
+		};
+		38E636FBF82461510C45F7B3B9265C56 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67F019F3F6060E39DF72103CF7655B1F /* Sense-UIColors */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		67F019F3F6060E39DF72103CF7655B1F /* Sense-UIColors */ = {
+			isa = PBXGroup;
+			children = (
+				33B43957423F990C2B0CC5656640329F /* Sense-UIColors */,
+				ECFEF914434B7F1B98142A20F37E938A /* Support Files */,
+			);
+			name = "Sense-UIColors";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6A0507F1886803060EFE0733E64DDE82 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF72295F61610F22C13A8E0AE996C8E6 /* Pods-Sense-UIColors_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6C601E48CD84B8CCC0DD04805C5FF6FF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E564218FB19458A23477EB3BF22E9833 /* UIColor+SenseColors.h */,
+				768E3BD9CD4A0B593FE3BB70FD39A6DB /* UIColor+SenseColors.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				38E636FBF82461510C45F7B3B9265C56 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F95A015F6D71D0E2439A00ED944A5682 /* Products */,
+				6A0507F1886803060EFE0733E64DDE82 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF72295F61610F22C13A8E0AE996C8E6 /* Pods-Sense-UIColors_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				99B3E6E65BC93A0B50D03C8C5C657DA7 /* Info.plist */,
+				26A0F2FBEBB1C528C74BDBAB35A443D8 /* Pods-Sense-UIColors_Tests.modulemap */,
+				15741A4F0B76643DF962463081E4D4E5 /* Pods-Sense-UIColors_Tests-acknowledgements.markdown */,
+				05480462434AAEA61D96FE6DFEF78101 /* Pods-Sense-UIColors_Tests-acknowledgements.plist */,
+				C4527343D0CDCBCCA259203AAD67FB57 /* Pods-Sense-UIColors_Tests-dummy.m */,
+				4D5C3B0905185646B998BE55A061CD2D /* Pods-Sense-UIColors_Tests-frameworks.sh */,
+				529F7B859242121482769F63B28A67FD /* Pods-Sense-UIColors_Tests-resources.sh */,
+				7E9F8EEBC7DAB5E9574641B8763F658A /* Pods-Sense-UIColors_Tests-umbrella.h */,
+				96BA10A899CC884D0AE36C4CB1D73E86 /* Pods-Sense-UIColors_Tests.debug.xcconfig */,
+				8FA4FD5797E281832ED55AC51789756A /* Pods-Sense-UIColors_Tests.release.xcconfig */,
+			);
+			name = "Pods-Sense-UIColors_Tests";
+			path = "Target Support Files/Pods-Sense-UIColors_Tests";
+			sourceTree = "<group>";
+		};
+		ECFEF914434B7F1B98142A20F37E938A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				194AFEEE30F962EC1743E121D3FF0C02 /* Info.plist */,
+				8A00CA374D4DBD4F9C1E475F5DA8DBC9 /* Sense-UIColors.modulemap */,
+				976FA6743A1B88F50D6324A08E2A3962 /* Sense-UIColors.xcconfig */,
+				CE4A787E232D4A2AA44D8DBA3D7A4F3B /* Sense-UIColors-dummy.m */,
+				8206CECC222D2AE834B291896F912B7C /* Sense-UIColors-prefix.pch */,
+				61FC2299B1AA1550D0D001C8A3C5E141 /* Sense-UIColors-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Sense-UIColors";
+			sourceTree = "<group>";
+		};
+		F95A015F6D71D0E2439A00ED944A5682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90BAD16EADF7CC26F4CDD9755B9E9D63 /* Pods_Sense_UIColors_Tests.framework */,
+				80983147CEF7818361A6FB9E0E58093B /* Sense_UIColors.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17D8EA3446419205D0CAD302D79AEB8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D9FA3C17A2450C9BFC393EDCA31040 /* Pods-Sense-UIColors_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEECC74FBBDBD21A6C6CBF35E0372228 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977901591D00048C4FB480E951EEFC00 /* Sense-UIColors-umbrella.h in Headers */,
+				F83776BE7AA14E435ED96300A83DB45D /* UIColor+SenseColors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		67D7E0221ACC0535CEBA1D5DA745E6C5 /* Pods-Sense-UIColors_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0C595FEBC708558378AF069176F0B2 /* Build configuration list for PBXNativeTarget "Pods-Sense-UIColors_Tests" */;
+			buildPhases = (
+				3C1D7D0D812C3AA85CD89F3D5F02F32C /* Sources */,
+				D017C86ADD74DF7E79E257F4DB9CFEE8 /* Frameworks */,
+				17D8EA3446419205D0CAD302D79AEB8F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816DD92E1E47076683B81089FB800E7F /* PBXTargetDependency */,
+			);
+			name = "Pods-Sense-UIColors_Tests";
+			productName = "Pods-Sense-UIColors_Tests";
+			productReference = 90BAD16EADF7CC26F4CDD9755B9E9D63 /* Pods_Sense_UIColors_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E21E0CD77A3F92525119BDFEE379C0A /* Sense-UIColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4897F1D085C7D846BD7FB6F7B3442C86 /* Build configuration list for PBXNativeTarget "Sense-UIColors" */;
+			buildPhases = (
+				19520670E674A2796BF894926BE756F4 /* Sources */,
+				92781E1F91C0A2920F04ADC8EF77001B /* Frameworks */,
+				BEECC74FBBDBD21A6C6CBF35E0372228 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sense-UIColors";
+			productName = "Sense-UIColors";
+			productReference = 80983147CEF7818361A6FB9E0E58093B /* Sense_UIColors.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F95A015F6D71D0E2439A00ED944A5682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67D7E0221ACC0535CEBA1D5DA745E6C5 /* Pods-Sense-UIColors_Tests */,
+				7E21E0CD77A3F92525119BDFEE379C0A /* Sense-UIColors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19520670E674A2796BF894926BE756F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A895ABC44C27C0DDE83BC6E748A662 /* Sense-UIColors-dummy.m in Sources */,
+				51A7027F05CF3A00A7A5E3D19B56D5AC /* UIColor+SenseColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1D7D0D812C3AA85CD89F3D5F02F32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F5358DFDE849EEACD2A82B3B4D9F29 /* Pods-Sense-UIColors_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		816DD92E1E47076683B81089FB800E7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Sense-UIColors";
+			target = 7E21E0CD77A3F92525119BDFEE379C0A /* Sense-UIColors */;
+			targetProxy = E80C4D31454CF74726F7C662B35CA11A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CC54A06F3DC059BBDF21E8651685790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96BA10A899CC884D0AE36C4CB1D73E86 /* Pods-Sense-UIColors_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sense-UIColors_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sense-UIColors_Tests/Pods-Sense-UIColors_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Sense_UIColors_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D3EAB384C3B8E821F2FDCAD8143D23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976FA6743A1B88F50D6324A08E2A3962 /* Sense-UIColors.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Sense-UIColors/Sense-UIColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sense-UIColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sense-UIColors/Sense-UIColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Sense_UIColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77D4990C59ED1281B1C01B8F32A788B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FA4FD5797E281832ED55AC51789756A /* Pods-Sense-UIColors_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sense-UIColors_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sense-UIColors_Tests/Pods-Sense-UIColors_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Sense_UIColors_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85CAD30788372F1AF10A0E0CF140F94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976FA6743A1B88F50D6324A08E2A3962 /* Sense-UIColors.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Sense-UIColors/Sense-UIColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sense-UIColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sense-UIColors/Sense-UIColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Sense_UIColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4897F1D085C7D846BD7FB6F7B3442C86 /* Build configuration list for PBXNativeTarget "Sense-UIColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3EAB384C3B8E821F2FDCAD8143D23E /* Debug */,
+				85CAD30788372F1AF10A0E0CF140F94D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0C595FEBC708558378AF069176F0B2 /* Build configuration list for PBXNativeTarget "Pods-Sense-UIColors_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC54A06F3DC059BBDF21E8651685790 /* Debug */,
+				77D4990C59ED1281B1C01B8F32A788B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

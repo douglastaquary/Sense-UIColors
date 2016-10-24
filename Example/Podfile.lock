@@ -1,0 +1,16 @@
+PODS:
+  - Sense-UIColors (0.1.0)
+
+DEPENDENCIES:
+  - Sense-UIColors (from `../`)
+
+EXTERNAL SOURCES:
+  Sense-UIColors:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Sense-UIColors: 7f8480ea4350e2895bdc0eaa3d4eefeaa409cd02
+
+PODFILE CHECKSUM: bb3720900f71f3355ea68099c3309758d5f3c22b
+
+COCOAPODS: 1.1.0.rc.3
