@@ -1,4 +1,3 @@
-# Sense-UIColors
 
 [![CI Status](http://img.shields.io/travis/Douglas Taquary/Sense-UIColors.svg?style=flat)](https://travis-ci.org/Douglas Taquary/Sense-UIColors)
 [![Version](https://img.shields.io/cocoapods/v/Sense-UIColors.svg?style=flat)](http://cocoapods.org/pods/Sense-UIColors)
@@ -27,3 +26,5 @@ Douglas Taquary, douglasalexandre@infoway-pi.com.br
 ## License
 
 Sense-UIColors is available under the MIT license. See the LICENSE file for more info.
+=======
+Configs of colors for Sense iOS App
